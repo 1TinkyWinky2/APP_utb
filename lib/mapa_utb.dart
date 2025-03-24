@@ -32,7 +32,8 @@ class _MapaUTBState extends State<MapaUTB> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Mapa UTB')),
+      appBar: AppBar(title: Text('UTBWayFinder')),
+
       body: GoogleMap(
         onMapCreated: _onMapCreated,
         initialCameraPosition: CameraPosition(
